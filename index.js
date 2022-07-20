@@ -7,7 +7,7 @@ import bodyParser from "body-parser"
 import usersRouter from './routes/users.js';
 
 const app = express();
-const port = 8000;
+const port = 5000;
 const ip = '0.0.0.0';
 
 app.use(bodyParser.json());
